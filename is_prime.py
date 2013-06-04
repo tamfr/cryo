@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
 """
 Created on Tue Jun  4 12:06:47 2013
-
 @author: Mott
 """
 # Following function accepts an integer x and tests whether it is prime, will retun False if less than 2.
