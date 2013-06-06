@@ -1,15 +1,8 @@
-num = 36
-t = 2
-c = 0
-prim = range(num)
-
-while c < num:
-    k = 0  
-    for i in range(1,t):     
-        if t%i == 0:
-            k = k+1           
-    if k == 1:		
- 		c = c + 1
- 		prim[c-1] = t
-    t = t+1
-
+"""
+Created on 10 Sep 2012
+@author: Mott
+"""
+# Following function returns all prime numbers within given range.
+from is_prime import is_prime
+def find_primes(a,b):
+    return filter(lambda a: a!=0,[i*is_prime(i) for i in range(a,b+1)])
