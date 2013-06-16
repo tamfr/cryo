@@ -1,0 +1,18 @@
+#I-need-a-transparent-background-image {
+    width: 100%;
+    height: 200em;
+    display: block;
+    position: relative;
+}
+
+.transparent-background-image {
+    content: "";
+    background: url();
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
